@@ -4,6 +4,10 @@ import platform
 
 print('Python {}'.format(platform.python_version()))
 
+import sys
+
+print(sys.path)
+
 """
 install with 
 pip3 install -e .
@@ -12,7 +16,7 @@ pip3 install .
 don't forget the trailing dot!
 """
 
-import importme
+import simp2.importme
 
 print(importme.test())
 

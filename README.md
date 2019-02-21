@@ -29,3 +29,6 @@ john@cave-mint18 ~/.local/lib/python3.5/site-packages $ cd simp2
 john@cave-mint18 ~/.local/lib/python3.5/site-packages/simp2 $ ls
 importme.py  __init__.py  __pycache__  simp2.py
 
+here is the output from sys.path
+
+['/home/john/.local/bin', '/usr/lib/python35.zip', '/usr/lib/python3.5', '/usr/lib/python3.5/plat-x86_64-linux-gnu', '/usr/lib/python3.5/lib-dynload', '/home/john/.local/lib/python3.5/site-packages', '/home/john/programs/pyqt5/mainwindow', '/home/john/github/7i76e', '/home/john/github/simp2', '/usr/local/lib/python3.5/dist-packages', '/usr/lib/python3/dist-packages']
