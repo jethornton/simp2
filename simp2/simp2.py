@@ -14,6 +14,8 @@ don't forget the trailing dot!
 
 import importme
 
+print(importme.test())
+
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget
 from PyQt5.QtGui import QIcon

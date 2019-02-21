@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="simple2",
-    version="0.0.5",
+    name="simp2",
+    version="0.0.6",
     author="John Doe",
     author_email="<doe.john@example.com>",
     description="Hello - An example to test install and docs",
