@@ -5,8 +5,7 @@ import platform
 print('Python {}'.format(platform.python_version()))
 
 import sys
-
-print(sys.path)
+print('File Location {}'.format(sys.argv[0]))
 
 """
 install with 
@@ -16,10 +15,7 @@ pip3 install .
 don't forget the trailing dot!
 """
 
-import simp2.importme
-
-print(importme.test())
-
+import simp2.importme as testme
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget
 from PyQt5.QtGui import QIcon
@@ -31,7 +27,7 @@ class Example(QWidget):
 
     def initUI(self):
         self.setGeometry(300, 300, 300, 220)
-        self.setWindowTitle('Simple')
+        self.setWindowTitle(testme.title())
         self.show()
 
 def main():
