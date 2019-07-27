@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="simp2",
+    name="simple_import",
     version="0.0.6",
     author="John Doe",
     author_email="<doe.john@example.com>",
@@ -17,7 +17,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     entry_points={
-        'gui_scripts': ['simp2=simp2.simp2:main',],
+        'gui_scripts': ['simple-import=simple_import.simple_import:main',],
     },
 )
 
