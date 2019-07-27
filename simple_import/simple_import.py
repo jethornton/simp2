@@ -17,10 +17,11 @@ don't forget the trailing dot!
 
 import simple_import.importme as testme
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QMainWindow
 from PyQt5.QtGui import QIcon
+from PyQt5.QtCore import Qt
 
-class Example(QWidget):
+class Example(QMainWindow):
     def __init__(self):
         super().__init__()
         self.initUI()
@@ -28,6 +29,9 @@ class Example(QWidget):
     def initUI(self):
         self.setGeometry(300, 300, 300, 220)
         self.setWindowTitle(testme.title())
+        versionLb = QLabel('Python {}'.format(platform.python_version()), self)
+        versionLb.setAlignment(Qt.AlignCenter)
+        self.setCentralWidget(versionLb)
         self.show()
 
 def main():

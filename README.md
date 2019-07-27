@@ -1,5 +1,5 @@
 # simple import
-simple example with import and pip3 install
+simple PyQt5 example with import and pip3 install
 Debian
 
 You may need to install pip3:
