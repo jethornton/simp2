@@ -15,7 +15,7 @@ pip3 install .
 don't forget the trailing dot!
 """
 
-import simp2.importme as testme
+import simple_import.importme as testme
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget
 from PyQt5.QtGui import QIcon
