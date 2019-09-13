@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# -*- coding: utf-8 -*-
 import platform
 
 print('Python {}'.format(platform.python_version()))
